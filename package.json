@@ -34,8 +34,7 @@
     "prepublish": "npm run test && npm run build",
     "prebuild": "rimraf dist",
     "start": "node webpack/server.js",
-    "start:debug": "weinre --boundHost `my-local-ip` ",
-    "test": "jest --coverage"
+    "start:debug": "weinre --boundHost `my-local-ip` "
   },
   "engines": {
     "node": ">= 8"
